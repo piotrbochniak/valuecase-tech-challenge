@@ -1,0 +1,13 @@
+@import "./blocks-button.css";
+@import "./blocks-add.css";
+@import "./blocks-render.css";
+@import "./blocks-form.css";
+
+.blocks {
+  margin: 32px 0;
+  width: 560px;
+}
+
+.blocks-list {
+  padding: 16px 0;
+}

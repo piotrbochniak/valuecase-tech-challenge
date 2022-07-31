@@ -1,0 +1,26 @@
+.block-button {
+  border-radius: 4px;
+  background: #ffa500;
+  color: black;
+  outline: none;
+  border: 1px solid black;
+  padding: 4px 8px;
+  height: 32px;
+  font-size: 16px;
+}
+.block-button--gray {
+  background: #eee;
+}
+.block-button--small {
+  padding: 2px 4px;
+  font-size: 14px;
+  height: 24px;
+}
+
+.block-button:hover {
+  background: #ffbb4f;
+  cursor: pointer;
+}
+.block-button--gray:hover {
+  background: #aaa;
+}

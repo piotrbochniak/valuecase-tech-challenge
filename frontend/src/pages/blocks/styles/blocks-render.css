@@ -1,0 +1,47 @@
+.block-render {
+  position: relative;
+}
+.block-render + .block-render {
+  margin-top: 16px;
+}
+.block-render-edit {
+  position: absolute;
+  top: 0; 
+  right: 0;
+  padding: 8px;
+  background: #eee;
+}
+.block-render-edit .block-button + .block-button { margin-left: 8px; }
+
+.block-render-item {
+}
+.block-render-title {
+  font-size: 1.5rem;
+  line-height: 150%;
+  color: black;
+  font-weight: bold;
+}
+
+.block-render-subtitle {
+  padding-top: 0.5em;
+  font-size: 1rem;
+  line-height: 150%;
+  color: black;
+  font-weight: bold;
+}
+
+.block-render-body {
+  font-size: 0.875rem;
+  line-height: 150%;
+  margin-top: 0.5em;
+}
+
+.block-render-image {
+  text-align: center;
+}
+
+.block-render-image img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+}

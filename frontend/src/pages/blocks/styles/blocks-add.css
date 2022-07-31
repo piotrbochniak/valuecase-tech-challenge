@@ -1,0 +1,20 @@
+.blocks-mode,
+.blocks-add {
+  padding: 16px;
+  border-radius: 8px;
+  background: #f4f4f4;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.blocks-add select {
+  font-size: 16px;
+  height: 32px;
+}
+
+.blocks-mode .block-button,
+.blocks-add .block-button {
+  margin-left: 16px;
+}

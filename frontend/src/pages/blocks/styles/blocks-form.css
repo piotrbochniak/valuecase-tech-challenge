@@ -1,0 +1,65 @@
+.block-form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.block-form-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 101;
+  transform: translate(-50%, -50%);
+  width: 560px;
+  background: #f4f4f4;
+  border-radius: 4px;
+  padding: 16px;
+}
+
+.block-form {
+}
+.block-form-title { 
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: bold;
+  padding-bottom: 16px;
+}
+.block-form-input {
+}
+.block-form-input + .block-form-input {
+  padding-top: 16px;
+}
+.block-form-input label { 
+  display: block;
+  padding-bottom: 4px;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: bold;
+}
+.block-form-input input {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  line-height: 150%;
+  padding: 6px;
+  border: 1px solid #999;
+}
+.block-form-input textarea {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  line-height: 150%;
+  padding: 6px;
+  border: 1px solid #999;
+}
+.block-form-footer {
+  padding-top: 16px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
